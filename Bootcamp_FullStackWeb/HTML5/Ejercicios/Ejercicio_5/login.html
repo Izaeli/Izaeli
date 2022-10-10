@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+
+    <header>
+        <center>
+            <img src="images/logo.png" alt="Star Wars" width="750">
+            <hr>
+            <nav>
+                <a href="index.html">Pagina Principal</a>
+                <a href="login.html">Login</a>
+                <a href="recoverypassword.html">Recuperar Contraseña</a>
+                <a href="register.html">Registro Cuenta</a>
+            </nav>
+            <hr>
+        </center>
+    </header>
+
+    <form action="index.html" method="get">
+
+        <fieldset>
+            <legend>Inicio de sesión</legend>
+
+            <div>
+                <label for="userInput">Usuario: </label>
+                <input type="email" id="userInput" name="user" required>
+            </div><br>
+
+            <div>
+                <label for="userPassword">Contraseña: </label>
+                <input type="password" id="userPassword" name="password" required>
+            </div><br>
+
+            <div>
+                <input type="submit" value="Inicio de Sesion">                
+            </div><br>
+        </fieldset>
+    </form>
+
+    <form action="#" method="get">
+        <button type="submit" formaction="recoverypassword.html">Olvide Contraseña</button>
+        <button type="submit" formaction="register.html">Crear Cuenta</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadatos / Metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
+
+    <meta name="description" content="Academia de Software, Ciberseguridad">
+    <meta name="author" content="codespace">
+
+    <meta name="robots" content="noindex"> <!-- Para no se indexado por Google -->
+    <meta name="robots" content="index"> <!-- Comportamiento por defecto -->
+
+    <meta name="robots" content="nofollow">
+    <meta name="robots" content="follow"> <!-- Comportamiento por defecto, procesa todos los enlaces de nuestra web -->
+
+    <!-- Controlar cache de este documento -->
+    
+    <meta http-equiv="cache.control" content="no-cache"> <!-- Se indica al buscador que no la guarden en cache -->
+
+    <!-- Redirigir a otro documento -->
+
+    <!-- <meta http-equiv="refresh" content="10; url=http://google.com"> -->
+
+    <style></style>
+    <script></script>
+
+    <title>Cheatsheet</title>
+</head>
+
+<body>
+
+    <!-- Enlaces internos y externos -->
+    <a href="https://google.com" target="_blank">Ir a Google</a>
+    <a href="blog.html">Blog</a>
+    <!-- <a href="folder/blog.html">Blog</a> -->
+
+    <!-- Linea en blanco -->
+    <br>
+    <a href="blog.html">Blog</a>
+
+    <!-- Linea separadora -->
+    <hr>
+
+    <!-- Titulos / Headings -->
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+
+    <hr>
+
+    <!-- Textos / Parrafos / Paragraphs -->
+
+    <p>Lorem ipsum, <b>dolor sit amet consectetur</b> dolor sit amet consectetur adipisicing elit. Nobis placeat
+        mollitia quam delectus, hic totam vitae
+        blanditiis <strong>arum eius, itaque labore neque</strong> tempore ducimus similique ab expedita ipsam commodi?
+        Iure!</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis placeat mollitia quam delectus, hic totam vitae
+        blanditiis earum <em>eius, itaque labore neque tempore</em> ducimus similique ab expedita ipsam commodi? Iure!
+    </p>
+
+    <!-- lorem50 rellena de 50 palabras en latin -->
+
+    <pre>
+        Lorem ipsum dolor sit amet consectetur
+
+        adipisicing elit. <s>At excepturi obcaecati voluptates</s> beatae explicabo voluptatibus consequatur magnam debitis, aperiam repudiandae nemo quo aliquid, iste fugit 
+
+        repellendus dicta possimus nesciunt non?
+    </pre>
+
+
+    <p>
+        <span class="ingredients">Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. Alias vitae distinctio
+        tenetur perspiciatis <span class="ingredients">ipsam eius nulla, placeat quam esse eveniet.</span>
+    </p>
+    <p>
+        Su fórmula química es C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>
+        <br>
+        Marca registrada <sup>R</sup>
+    </p>
+
+
+    <p>El teorema de <strong>pitagoras</strong> se conoce por la ecuacion de:</p>
+    <p><var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> = <var>c</var><sup>2</sup></p>
+
+    <p>Las clases del bootcamp empiezan a las <time datetime="09:30">09:30</time></p>
+    <p>El primer dia fue el <time datetime="2021-02-01">1 de febrero</time></p>
+
+    <br>
+    <hr><br>
+
+    <!-- Contenedores / Containers -->
+
+    <!-- nav>a.miCLase*3{enlace$} -->
+
+    <nav>
+        <p>Seccion de links a otras partes de la web</p>
+        <a href="" class="miCLase">enlace1</a>
+        <a href="" class="miCLase">enlace2</a>
+        <a href="" class="miCLase">enlace3</a>
+    </nav>
+
+    <section>
+        <article>
+            <h1>Titulo del articulo</h1>
+            <p>Contenido del articulo</p>
+        </article>
+        <a href="">Leer mas</a>
+    </section>
+
+    <aside>
+        <p>Menu generalmente lateral</p>
+    </aside>
+
+    <!-- section>article>h1+p -->
+
+    <footer>
+        <p>Pie de pagina</p>
+        <address>
+            Malaga, 29007
+        </address>
+    </footer>
+
+    <div class="container">
+        <p>Contenedor Generico</p>
+    </div>
+
+    <br>
+    <hr><br>
+
+    <!-- Listas / Lists -->
+
+    <ul>
+        <!-- Desordenada -->
+        <li>Elemento1</li>
+        <li>Elemento2</li>
+        <ol start="8">
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+        </ol>
+        <li>Elemento3</li>
+        <li>Elemento4</li>
+        <li>Elemento5</li>
+    </ul>
+
+    <ol>
+        <!-- Ordenada -->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <ol start="150">
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+        </ol>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ol>
+
+    <br>
+    <hr><br>
+
+    <!-- Tablas / Tables -->
+
+    <table>
+        <caption>Poetas y Escritores</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>jdoe@gmail.com</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>janedoe@gmail.com</td>
+                <td>38</td>
+            </tr>
+            <tr>
+                <td>Alumi Codespace</td>
+                <td>ac@codespaceacademy.com</td>
+                <td>40</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><hr><br>
+
+    <!-- Formularios / Forms -->
+
+    <form action="#" method="get">
+        
+        <div class="inputBlock">
+            <label for="nameInput">Nombre: (*)</label> <br>
+            <input type="text" id="nameInput" name="userName" maxlength="10" placeholder="Introduce tu nombre" required >
+        </div>
+
+        <br>
+
+        <div class="inputBlock">
+            <label for="lastNameInput">Apellidos:</label> <br>
+            <input type="text" id="lastNameInput" name="lastName" placeholder="Introduce tu apellidos">
+        </div>
+
+        <br>
+
+        <div class="inputBlock">
+            <label for="emailInput">Email: (*)</label> <br>
+            <input required type="email" id="emailInput" name="userEmail" placeholder="Introduce tu email">
+        </div>
+
+        <br>
+
+        <div class="inputBlock">
+            <label for="passwordInput">Contraseña:</label> <br>
+            <input type="password" id="passwordInput" name="passwordInput" placeholder="***************">
+        </div>
+
+        <br>
+
+        <div class="inputBlock">
+            <label for="messageInput">Mensaje:</label> <br>
+            <textarea type="messageInput" id="messageInput" cols="30" rows="10"></textarea>
+        </div>
+
+        <br>
+
+        <div class="inputBlock">
+            <label for="sexInput">Genero:</label><br>
+            <select name="sexInput" id="sexInput">
+                <option hidden></option>
+                <option value="male">Masculino</option>
+                <option value="female">Femenino</option>
+                <option value="other">Otro</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div class="inputBlock">
+            <label for="ageInput">Edad:</label>
+            <input id="ageInput" name="ageInput" type="number" value="42" min="0" max="120">
+            
+            <label for="birthdayInput">Fecha de nacimiento:</label>
+            <input type="date" id="birthdayInput" name="birthdayInput">
+        </div>
+        
+        <br>
+
+        <div class="inputBlock">
+            <label for="carBrandsInput">La marca de tu coche:</label>
+            <input type="text" id="carBrandInput" name="carBrand" list="carBrandList">
+            <datalist id="carBrandList">
+                <option value="bmw">BMW</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="mustang">Mustang</option>
+                <option value="ford">Ford</option>
+                <option value="volkswagen">Volkswagen</option>
+            </datalist>
+        </div>
+        
+        <br>
+        
+        <fieldset disabled>
+            <div class="inputBlock">
+                <label for="nameInput">Nombre: (*)</label> <br>
+                <input required type="text" id="nameInput2" name="userName" maxlength="10" placeholder="Introduce tu nombre">
+            </div>
+    
+            <br>
+    
+            <div class="inputBlock">
+                <label for="lastNameInput">Apellidos:</label> <br>
+                <input type="text" id="lastNameInput2" name="lastName" placeholder="Introduce tu apellidos">
+            </div>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Estado Civil</legend>
+            <div>
+                <input type="radio" name="civilState" id="marriedInput">
+                <label for="marriedInput">Casado</label>
+            </div>
+
+            <div>
+                <input type="radio" name="civilState" id="singleInput" checked> <!-- checked aparece uno marcado siempre -->
+                <label for="singleInput">Soltero</label>
+            </div>
+
+            <div>
+                <input type="radio" name="civilState" id="divorcedInput" required>
+                <label for="divorcedInput">Divorciado</label>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Productos</legend>
+            <div>
+                <input type="checkbox" name="iPhoneProduct" id="iPhoneProduct">
+                <label for="iPhoneProduct">iPhone</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="macbookProduct" id="macbookProduct"> 
+                <label for="macbookProduct">Macbook Pro</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="airpodsProduct" id="airpodsProduct">
+                <label for="airpodsProduct">Airpods</label>
+            </div>
+
+        </fieldset>
+
+        <br>
+
+        <div>
+            <label for="rangeInput">Seleccione cantidad de elementos</label>
+            <input type="range" name="rangeInput" id="rangedInput">
+        </div>
+
+        <br>
+
+        <label for="fuelLevel">Cantidad de Gasolina</label>
+        <meter min="0" max="100" low="33" high="66" id="fuelLevel" value="60"></meter>
+
+        <br><br>
+
+        <label for="progressInput">Progreso</label>
+        <progress max="100" value="33" id="progressInput">60</progress>
+
+        <br><br>
+
+        <label for="fileInput">Subir un archivo</label>
+        <input type="file" id="fileInput" name="fileInput">
+
+        <br><br>
+
+        <input type="submit" value="Guardar">
+        <input type="reset" value="Vaciar">
+
+        <br><br>
+    </form>
+
+    <input type="submit" value="Guardar"> <!-- Detras del form, no vale para nada -->
+    <input type="reset" value="Vaciar">
+
+    <br><br>
+
+    <button>Click</button>
+
+    <br><br>
+
+    <!-- Multimedia / Media -->
+
+    <img src="images/background.jpg" width="250" alt="Paisaje montañoso"> <!-- height="" es el alto, pero ponemos solo un valor para que no se deforme -->
+
+    <br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OgIRAjnnJzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+
+    <!-- <iframe src="https://codespaceacademy.com" width="560px" height="400px" frameborder="0"></iframe> -->
+
+    <iframe width="560" height="315" src="https://www.juntadeandalucia.es/export/drupaljda/0001703A07DR.pdf" frameborder="0"></iframe>
+
+    <object width="560" height="315" data="https://www.juntadeandalucia.es/export/drupaljda/0001703A07DR.pdf" type=""></object>
+
+    <!-- Citas / Quotations -->
+    <h3>Citas / Quotations</h3>
+
+    <blockquote>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quasi maxime repellendus quam qui nobis sequi aperiam suscipit, distinctio asperiores cupiditate adipisci aliquam id eveniet minima autem recusandae quia eius quo soluta eligendi. Dolor corrupti dicta perferendis assumenda saepe ullam numquam iste voluptas rerum dolores blanditiis sunt quis optio, aperiam, impedit tenetur ea libero autem, veniam repellat. Accusamus aliquam atque id deserunt cupiditate odio ut accusantium veniam nihil maiores aut laudantium, porro tenetur eligendi quaerat veritatis ex eos quam praesentium? Sapiente odit fugiat natus in temporibus sit deleniti dolores velit! Velit, voluptate qui? Dignissimos mollitia a quia similique debitis ex omnis fugiat, ratione eaque tempora, facere vel vero, explicabo deserunt harum inventore. Velit maxime nobis excepturi itaque facere, impedit labore eaque voluptatibus deleniti dignissimos aliquid voluptates numquam earum unde nesciunt tempora sint illum adipisci vitae quos assumenda autem facilis eos. At facere excepturi non, provident exercitationem et possimus quaerat autem maiores ducimus delectus nostrum necessitatibus vitae velit aperiam quae pariatur adipisci fugit earum rem mollitia? A voluptatibus nihil magnam. Velit commodi enim similique harum est deserunt ullam debitis exercitationem. Vitae nihil qui, provident quaerat adipisci pariatur fugiat aspernatur odit error quibusdam laborum dolores! Perferendis nesciunt, iste tempore ratione adipisci libero omnis, commodi hic illum ullam quae alias tenetur blanditiis officia itaque minima, vel inventore. Unde doloremque enim eos quae! Reiciendis architecto ea placeat eveniet, quod, corrupti ratione dolorum, fugit qui quas impedit veniam! Est dolor voluptas, optio repudiandae quasi numquam nostrum hic sapiente saepe repellendus voluptate veritatis, commodi eum beatae. Iste minus aperiam optio molestias dolores, magnam deleniti quo dolore ab amet consequatur laudantium facere. Recusandae sequi nihil id totam nostrum consequatur obcaecati minima neque. Autem dolorem voluptates provident nisi aliquid impedit ducimus in voluptate laboriosam? Architecto quae, magnam impedit, asperiores dolores quam officiis temporibus ipsa, fuga sunt itaque doloremque! Ut officiis ducimus cumque, amet libero vitae delectus dolor voluptate error neque labore, fugit blanditiis ea ipsa laudantium non minima commodi mollitia, consectetur sit ullam quisquam. Vel perferendis tempora a veritatis illum minus unde quas? Pariatur beatae consectetur optio. Amet iusto eaque nulla atque rem beatae neque quibusdam perspiciatis, aliquid impedit at odio quas porro temporibus, odit doloremque adipisci blanditiis aperiam inventore suscipit. Quos ratione suscipit saepe nesciunt, aperiam quis perferendis perspiciatis commodi aut? Delectus, neque eligendi inventore praesentium quibusdam itaque illum architecto exercitationem eos sunt magnam a optio, totam sint unde ipsam animi recusandae! Itaque ratione maxime neque nostrum, quaerat nulla? Quod repellendus officiis quia labore doloremque ullam blanditiis quibusdam odit neque quas, nostrum assumenda ratione ducimus ipsa sunt tenetur. Fuga, voluptatem maxime nulla doloremque reiciendis molestiae perferendis dicta optio dolor qui eum quisquam pariatur provident temporibus exercitationem commodi mollitia rem, similique molestias aliquid. Quibusdam cumque quam perferendis id corporis accusamus, quas labore blanditiis natus nesciunt iste ipsa rem enim maiores officiis eos quae nisi. Excepturi fuga rem adipisci sapiente reiciendis minus, sunt enim magni odit aspernatur libero iste similique sint ad quis officia magnam, molestias officiis expedita porro! Ex inventore harum tenetur expedita minima aspernatur quaerat similique fugiat?
+    </blockquote>
+
+    <q>Tipo Inline. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ex.</q><br><br>
+
+    <q>Soy Programador <abbr title="Formacion Profesional">FP</abbr> </q>
+    <abbr title="World Wide Web">WWW</abbr>
+
+    <br>
+
+    &nequiv;  <!-- Para escribir caracteres especiales -->
+
+    <br><br>
+
+    <!-- Javascript / Scripting -->
+
+    <script>document.write("Escribiendo esto desde JS.")</script>
+
+    <noscript>Error. Tu navegador no soporta javascript</noscript>
+
+    <br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>
